@@ -1,0 +1,6 @@
+cd 地址用 / 不用 \
+git init初始化仓库
+git add filename -> git commit -m 'discription' 添加文件
+git reset --hard commit_id 回到特定版本
+git log  git reflog查看不同版本号  可以任意commit版本切换
+HEAD^指针指向当前版本号
