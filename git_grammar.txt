@@ -23,3 +23,12 @@ git checkout -- file 丢弃当工作区的修改
 之后再有什么东西需要向远程更新 由git push origin master执行
 
 git clone git@github.com:primerzhu/gitskills.git 拉取远程仓库
+
+Git鼓励大量使用分支：
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+这两句合起来的效果与下一句相同
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
